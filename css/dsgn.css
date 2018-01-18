@@ -1,0 +1,734 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+header, .content {
+    width: 100%;
+    overflow: hidden;
+}
+
+.header-lf {
+    width: 68%;
+    height: 460px;
+    background: #e9eae2;
+    float: left;
+}
+
+.header-lf-l {
+    width: 40%;
+    float: left;
+}
+
+.header-lf-l img {
+    float: left;
+    margin-left: 150px;
+    margin-top: 45px;
+}
+
+.header-lf-r {
+    width: 60%;
+    float: right;
+}
+
+.header-lf .header-lf-tx {
+    margin-top: 0;
+}
+
+.header-lf-l div {
+    width: 100%;
+    float: left;
+    margin-left: 170px;
+}
+
+.header-lf-l div img {
+    float: left;
+    margin-left: 0;
+    margin-top: 40px;
+}
+
+.header-lf-r img {
+    float: right;
+    position: relative;
+    left: 40px;
+    top: 35px;
+}
+
+.header-rg {
+    width: 32%;
+    height: 460px;
+    float: right;
+    position: relative;
+    background: url("../images/Header Section/Header-Section_0001s_0000_bg.png");
+}
+
+.header-rg img {
+    float: left;
+}
+
+.header-rg img:first-child {
+    margin-left: 34%;
+    margin-top: 10%;
+}
+
+.header-rg-two {
+    position: absolute;
+    left: 44%;
+    top: 20%;
+}
+
+.header-rg-th {
+    margin-left: -20px;
+    margin-top: -180px;
+    transform: rotate(1deg);
+}
+
+.header-rg-f {
+    margin-top: -250px;
+    margin-left: 10%;
+}
+
+.header-rg-fv {
+    margin-top: -150px;
+    margin-left: 30%;
+}
+
+/*正文部分*/
+.content-lt {
+    width: 68%;
+    background: green;
+    float: left;
+}
+
+.content-rt {
+    width: 32%;
+    height: 1200px;
+    background: gray;
+    float: right;
+}
+
+.content-lt-l {
+    width: 48%;
+    height: 450px;
+    background: url("../images/Projects Section/Projects-Section_0001s_0004_bg.png");
+    float: left;
+    overflow: hidden;
+    position: relative;
+}
+
+.content-lt-l {
+    float: left;
+}
+
+.content-l-ft {
+    margin-top: 25%;
+    margin-left: 33%;
+}
+
+.content-lt-l ul {
+    float: left;
+    list-style: none;
+    position: absolute;
+    top: 100px;
+    left: 30%;
+    color: white;
+
+}
+
+.content-lt-l ul li:first-child {
+    color: black;
+    font-weight: bold;
+}
+
+.content-lt-l p {
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: -60%;
+    left: 50%;
+}
+
+.content-l-th {
+    margin-left: -4%;
+    margin-top: -35%;
+    transform: rotate(2deg);
+}
+
+.content-lt-g {
+    width: 52%;
+    height: 450px;
+    background: white;
+    float: right;
+}
+
+.content-g-l {
+    width: 20%;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+}
+
+.content-g-l h5 {
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.content-g-l span {
+    font-weight: bold;
+    color: black;
+}
+
+.content-g-l ul {
+    list-style: none;
+    color: gray;
+}
+
+.content-g-l img {
+    float: left;
+    margin-top: 15%;
+    margin-left: 15%;
+}
+
+.content-lt-list img {
+    float: left;
+    margin-top: 9%;
+    margin-left: 15%;
+}
+
+.content-g-l img:last-child {
+    float: left;
+    margin-left: 35%;
+}
+
+.content-lt-list img:last-child {
+    float: left;
+    margin-left: 35%;
+}
+
+.content-g-l P, .content-lt-list p {
+    margin-top: 20%;
+    font-size: 15px;
+    color: gray;
+}
+
+.content-lt-list p {
+    color: white;
+    margin-top: 15%;
+}
+
+.content-g-r {
+    width: 40%;
+    float: right;
+    overflow: hidden;
+}
+
+.content-g-r img {
+    margin-left: -12%;
+    position: absolute;
+    z-index: -0.4;
+}
+
+.content-lt-list {
+    width: 32%;
+    height: 588px;
+    background: url("../images/Projects Section/lvyizi.png") no-repeat center top;
+    background-size:100% 100%;
+    float: left;
+}
+
+.content-lt-list ul {
+    list-style: none;
+    color: gainsboro;
+}
+
+.content-lt-list h4 {
+    color: white;
+    font-size: 20px;
+    transform: scale(1, 2);
+    font-weight: 100;
+    margin-left: 40px;
+}
+
+.content-lt-list span {
+    color: white;
+}
+
+.clear {
+    clear: both;
+}
+
+.content-lt-list1 {
+    width: 68%;
+    float: left;
+    height: 588px;
+    background: #eaeaea;
+    overflow: hidden;
+    position: relative;
+}
+
+.content-lt-list1 img:first-child {
+    float: left;
+    margin-left: 20px;
+    margin-top: 20%;
+}
+
+.content-lt-list1 h4 {
+    float: left;
+    margin-left: 45%;
+    margin-top: -55%;
+    font-size: 20px;
+    color: grey;
+}
+
+.content-lt-list1 ul {
+    float: right;
+    margin-top: -50%;
+    margin-right: 36%;
+    list-style: none;
+    color: grey;
+}
+
+.content-lt-list1 span {
+    font-weight: bold;
+    color: black;
+}
+
+.list1-img {
+    float: right;
+    position: absolute;
+    top: 22%;
+    right: 23%;
+}
+
+.content-lt-list1 p {
+    color: grey;
+    font-size: 10px;
+    float: right;
+    position: absolute;
+    top: 21%;
+    right: 9%;
+}
+
+.content-lt-list1 img:last-child {
+    float: right;
+    position: absolute;
+    top: 31%;
+    right: 12%;
+}
+
+.content-lt-list2 {
+    width: 70%;
+    height: 265px;
+    background: white;
+    float: left;
+    padding-top: 20px;
+}
+
+.content-lt-list2 img {
+    float: left;
+    margin-left: 10%;
+}
+.content-lt-list2 h4{
+    float: left;
+    font-size: 10px;
+    color: grey;
+    margin-left:18%;
+}
+.content-lt-list2 ul {
+    list-style: none;
+    float: left;
+    margin-left:-18%;
+    margin-top:5%;
+    line-height: 10px;
+}
+.content-lt-list2 p{
+    float: right;
+    margin-right: 35%;
+    margin-top:8%;
+}
+.list2-img1{
+    margin-top:7%;
+}
+.content-lt-list2 .list2-img{
+    float:right;
+    margin-right: 20%;
+    margin-top:-7%;
+}
+
+.content-lt-list3 {
+    width: 30%;
+    height: 265px;
+    background: url("../images/Projects Section/alessi.jpg");
+    float: right;
+    padding-top: 20px;
+}
+
+.content-lt-list3 ul {
+    list-style: none;
+    float: left;
+    margin-left:40%;
+    margin-top:15%;
+    line-height: 10px;
+}
+.content-lt-list3 ul li{
+    margin-top: 5px;
+}
+.content-lt-list3 h4{
+    font-size: 20px;
+    color: grey;
+}
+.list3-img1,.list3-img{
+    float: left;
+    margin-top:-5px;
+}
+.list3-img{
+    margin-top: 10px;
+    margin-left:40px;
+}
+.content-lt-list3 p{
+    margin-top:15px;
+}
+.content-rt-list1{
+    width: 100%;
+    height: 301px;
+    border:1px solid #dfe0d9;
+    background: #dfe0d9;
+    background-image: url("../images/Projects Section/yinx.png");
+    background-repeat: no-repeat;
+    background-position: 150px 0px;
+
+}
+.content-rt-list1 ul{
+    width: 30%;
+    height: 301px;
+    list-style: none;
+    float: left;
+}
+.content-rt-list1 ul li{
+    margin-top:20px;
+}
+.content-rt-list1 span,.content-rt-list2 span,.content-rt-list3 span{
+    font-weight: bold;
+    color: black;
+}
+.content-rt-list1 h3,.content-rt-list2 h3,.content-rt-list3 h3{
+  color: grey;
+    font-size: 17px;
+    transform: scale(1,2);
+    font-weight: 100;
+}
+.content-rt-list1 img,.content-rt-list2 img{
+    float: left;
+}
+.rt-list1-img{
+    margin-left:50px;
+}
+.content-rt-list2{
+    width: 100%;
+    height: 482px;
+    border:1px solid rgba(255,255,255,0.1);
+    background:url("../images/Projects Section/tabano.jpg") ;
+}
+.content-rt-list2 ul{
+    width: 30%;
+    color: grey;
+    float: left;
+    list-style: none;
+   margin-left:-30%;
+    margin-top:340px;
+}
+.content-rt-list2 .list2-ul{
+    margin-left:20px;
+}
+.rt-list2-img{
+   margin-left:40px;
+}
+.content-rt-list3{
+    width: 100%;
+    height: 250px;
+    border:1px solid white;
+    background-color: white;
+}
+.content-rt-list3 ul{
+    float: right;
+    list-style: none;
+    color: grey;
+    position: absolute;
+    right: 30px;
+}
+.content-rt-list3 img:first-child{
+    float: left;
+}
+.list3-img1{
+    margin-top:-1px;
+}
+.content-rt-list4{
+    width: 100%;
+    height: 285px;
+    border:1px solid orange;
+    background: url("../images/Projects Section/timeline.jpg");
+}
+.content-rt-list4 ul{
+    list-style: none;
+    color: white;
+    float: left;
+    margin-left:60px;
+    margin-top:40px;
+}
+.content-rt-list4 h3,.studio-bt-rt h3{
+    color: black;
+    font-size: 15px;
+}
+/*中间下部内容及人物介绍*/
+.studio{
+    width: 100%;
+
+    background: #e9eae2;
+    overflow: hidden;
+}
+.studio-lt,.studio-bt-lf{
+    width: 30%;
+    height: 450px;
+    float: left;
+    background: url("../images/Projects Section/studio.jpg") no-repeat;
+    background-size: 100% 100%;
+
+}
+.studio-lt p,.studio-bt-lf P{
+    color: white;
+    font-size: 30px;
+    transform: scale(1,1.5);
+    float: left;
+    margin-left: 45%;
+    margin-top: 70%;
+
+}
+.studio-rt,.studio-bt-rt{
+    width: 70%;
+    height: 450px;
+    float: right;
+
+}
+.studio-bt-rt img{
+    transform: scale(1);
+    transition: transform 1s;
+}
+.studio-rt-lf{
+    width: 30%;
+    float: left;
+    font-size: 16px;
+    margin-left:10%;
+    margin-top:5px;
+}
+.studio-rt-lf h5{
+    font-style: italic;
+}
+.studio-rt-lf p{
+    font-weight: 100;
+}
+.studio-rt-rg{
+    width: 35%;
+    float: left;
+    margin-left:5%;
+    margin-top:32px;
+}
+.studio-rt-rg img{
+    width: 100%;
+}
+.imghover{
+    width: 350px;
+    height: 150px;
+    overflow: hidden;
+}
+.imghover1{
+    width: 280px;
+    height: 160px;
+    overflow: hidden;
+    position: relative;
+}
+.imghover1 img{
+    transform: scale(1);
+    transition: transform 1s;
+}
+.imghover2{
+    width: 330px;
+    height: 200px;
+    overflow: hidden;
+}
+.imghover2 img{
+    transform: scale(1);
+    transition: transform 0.6s;
+}
+.left-bt{
+    width: 50px;
+    height: 80px;
+    background: #fd5000;
+    position:absolute;
+    top:40px;
+    display: none;
+}
+.left-bt:hover{
+    background: #f8c255;
+}
+.left-bt img{
+    float: left;
+    margin-top:30px;
+    margin-left:10px;
+}
+.imghover1:hover .left-bt{
+    display: block;
+    cursor: pointer;
+    animation: img 1s infinite;
+    animation-iteration-count: 1;
+}
+@keyframes img {
+   from{left:-50px;}
+    to{left:0px;}
+}
+.studio-bt-rt img:hover,.studio-bottom img:hover,.studio-rt-rg img:hover{
+   transform: scale(1.2);
+    display: block;
+}
+.studio-rt-rg h5{
+    font-size: 1rem;
+    padding-bottom:10px;
+    border-bottom:1px solid #c9c9c9;
+}
+.studio-rt-rg ul{
+    list-style: none;
+    float: left;
+    margin-left:-38px;
+    margin-right: 50px;
+}
+.studio-bottom{
+    width: 100%;
+    height: 350px;
+}
+.studio-bottom ul{
+    list-style:none;
+}
+.studio-bottom ul li{
+    float: left;
+    width: 20%;
+    margin-left:3%;
+    line-height: 20px;
+}
+.studio-bottom ul li span{
+    display: block;
+    margin-top:-20px;
+}
+.studio-bottom ul li ul{
+    width: 90%;
+    overflow: hidden;
+
+}
+.studio-bottom ul li ul li{
+     width: 35%;
+}
+.studio-bottom ul li ul li:first-child{
+    width: 77%;
+    margin-left: -40px;
+    margin-right: 3px;
+}
+.studio-bottom ul li ul img{
+    margin-left:5px;
+}
+.studio-bottom-bt{
+    width: 100%;
+    background: #e6e9e0;
+    overflow: hidden;
+}
+.studio-bt-lf{
+    background: url("../images/Projects Section/news.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+.studio-bt-rt ul{
+    list-style: none;
+    margin-top:6%;
+}
+.studio-bt-rt ul li{
+    float: left;
+    width: 40%;
+    margin-left:30px;
+}
+.studio-bt-rt ul li img{
+    width: 100%;
+    height: 100%;
+}
+.studio-bt-rt ul a{
+    float: right;
+    color: orange;
+    font-weight: bold;
+    text-decoration: none;
+}
+.studio-bt-rt ul a:hover{
+    color: black;
+    transition: color 2s;
+}
+.studio-rt-rg-r h3{
+    margin-bottom:34px;
+}
+footer{
+    width: 100%;
+    background: url("../images/Projects Section/Footer-Section_0000s_0002_bg.png");
+    overflow: hidden;
+}
+.footer-lf{
+    width: 55%;
+    height: 570px;
+    float: left;
+    background: url("../images/Projects Section/Footer-Section_0000s_0001_map.png") no-repeat center;
+}
+.footer-lf img{
+    float: left;
+    margin-left:40%;
+    margin-top:33%;
+}
+.footer-rt{
+    width: 45%;
+    height: 570px;
+    float: right;
+}
+.footer-rt-list{
+    width: 40%;
+    float: left;
+    margin-top: 17%;
+    margin-left: 10%;
+}
+.footer-rt-list ul{
+    list-style: none;
+    font-weight: 500;
+}
+.footer-rt-list span{
+    display: block;
+    margin-left: 16%;
+}
+.footer-rt-list1{
+    width: 40%;
+    float: right;
+    margin-top:20%;
+    margin-left:20px;
+}
+.footer-rt-list1 span{
+    font-size: 13px;
+    font-weight: bold;
+    display: block;
+
+}
+.footer-rt-list1 div img{
+    margin-top: 25%;
+    margin-left:5%;
+}
+.footer-rt-list2{
+    width: 100%;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 20%;
+}
+
+
+
+
+
+
